@@ -1,0 +1,30 @@
+{
+  "name": "immutable-practice",
+  "author": {
+    "name": "Brian Tam",
+    "email": "briantam23@gmail.com",
+    "url": "https://briantam23.github.io"
+  },
+  "contributors": [
+    {
+      "name": "Brian Tam",
+      "email": "briantam23@gmail.com",
+      "url": "https://briantam23.github.io"
+    }
+  ],
+  "version": "1.0.0",
+  "description": "immutable-practice",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briantam23/immutable-practice.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "keywords": ["immutable"],
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  }
+}
