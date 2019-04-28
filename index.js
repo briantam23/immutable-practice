@@ -53,9 +53,17 @@ pets.push('tortoise');
 
 console.log(pets); // prints ['cat', 'dog', 'goldfish', 'tortoise']; */
 
-// To create the equivalent in Immutable:
+/* // To create the equivalent in Immutable:
 const pets = List(['cat', 'dog']);
 const finalPets = pets.push('goldfish').push('tortoise');
 
 console.log(pets.toJS()); // prints ['cat', 'dog'];
-console.log(finalPets.toJS()); // prints ['cat', 'dog', 'goldfish', 'tortoise'];
+console.log(finalPets.toJS()); // prints ['cat', 'dog', 'goldfish', 'tortoise']; */
+
+// Immutable Data
+
+const data = fromJS({ name: 'Brian' });
+const newNameData = data.set('name', 'Mike');
+
+console.log(data.get('name')); // prints 'Mike'
+console.log(newNameData.get('name')); // prints 'Mike'
